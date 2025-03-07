@@ -1,0 +1,11 @@
+name: null
+channels:
+  - conda-forge
+  - defaults
+  - pyviz
+dependencies:
+  - python=3.10
+  - cudnn
+  - pip
+  - pip:
+    - -e .[pytorch]
